@@ -3,7 +3,7 @@ from blockchain import Blockchain
 block_one_transactions = {"sender":"Guy", "receiver": "Pal", "amount":"1"}
 block_two_transactions = {"sender": "Buddy", "receiver":"Friend", "amount":"20000"}
 block_three_transactions = {"sender":"Pal", "receiver":"Guy", "amount":"75"}
-fake_transactions = {"sender": "Friend", "receiver":"Cole, Guy", "amount":"0.1"}
+fake_transactions = {"sender": "Friend", "receiver":"Guy", "amount":"0.1"}
 
 local_blockchain = Blockchain()
 local_blockchain.print_blocks()
